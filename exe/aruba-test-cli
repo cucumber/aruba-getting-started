@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+file = ARGV[0]
+
+if file.nil? || file.empty?
+  $stderr.puts "aruba-test-cli [file]: Filename is missing"
+  exit 1
+elsif !File.exist? file
+  $stderr.puts "aruba-test-cli [file]: File does not exist"
+  exit 1
+end
+
+puts File.read(file).chomp
