@@ -3,11 +3,9 @@
 file = ARGV[0]
 
 if file.nil? || file.empty?
-  $stderr.puts "aruba-test-cli [file]: Filename is missing"
-  exit 1
+  abort "aruba-test-cli [file]: Filename is missing"
 elsif !File.exist? file
-  $stderr.puts "aruba-test-cli [file]: File does not exist"
-  exit 1
+  abort "aruba-test-cli [file]: File does not exist"
 end
 
 puts File.read(file).chomp
