@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dev@fedux.org"]
 
   spec.summary       = %q{This is an example app for the aruba project}
-  spec.homepage      = "https://github.com/cli-testing/aruba-getting-started"
+  spec.homepage      = "https://github.com/cucumber/aruba-getting-started"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
