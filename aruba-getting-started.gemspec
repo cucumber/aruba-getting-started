@@ -33,5 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "minitest"
   spec.add_development_dependency "aruba", "~> 1.0.0-alpha.1"
-  spec.add_development_dependency "cucumber", "~> 2.0"
+  spec.add_development_dependency "cucumber", "~> 8.0"
 end
