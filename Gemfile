@@ -6,5 +6,5 @@ gemspec
 gem "rake"
 gem "rspec", "~> 3.0"
 gem "minitest"
-gem "aruba", "~> 2.2.0"
+gem "aruba", "~> 2.3.0"
 gem "cucumber", "~> 9.0"
